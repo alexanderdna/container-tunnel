@@ -1,5 +1,7 @@
 @ECHO OFF
 
-docker build -t alexanderdna/container-tunnel .
+SET IMAGE_NAME=alexanderdna/container-tunnel
+
+docker build -t %IMAGE_NAME% .
 
 PAUSE
