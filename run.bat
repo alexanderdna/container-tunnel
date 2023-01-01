@@ -8,4 +8,4 @@ docker start %INSTANCE_NAME% 2>NUL || docker run ^
     --volume %INSTANCE_NAME%:/home/workspace ^
     --workdir /home/workspace ^
     --name %INSTANCE_NAME% ^
-    %IMAGE_NAME%:latest code tunnel --accept-server-license-terms
+    %IMAGE_NAME%:latest
